@@ -6,27 +6,30 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.navbar{
-    height: 55px;
-    position: absolute;
-    width: 100%;
-    background-color: #007D8A;
+.header{
     display: flex;
+    height: 70px;
+    background-color: #007D8A;
     justify-content: space-between;
-
+    align-items: center;
+}
+.header .logo{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.logo img{
+    height: 50px;
 }
 
-.navbar li a{
-    text-decoration: none;
-    color: white;
+.nombreweb{
+    padding: 20px;
 }
 
-.logo{
-    height: 60%;
-    padding: 0 50px;
+.link a{
+    padding: 8px;
 }
 
-.logospan{
-    font-size: 45px;
-    padding: 0 50px;
+.boton{
+    padding-right: 20px;
 }
